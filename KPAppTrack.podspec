@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.author       = { "Karthikeyan" => "pskarthiikeyan@gmail.com" }
   s.source       = { :git => "https://github.com/pskarthiikeyan/KPAppTrack.git", :tag => "v1.0.0" }
   s.ios.deployment_target = "12.0"
-  s.source_files  = "Sources/**/*.swift"
+  s.source_files  = "KPAppTrack/*.swift"
   s.framework    = "UIKit"
 end
